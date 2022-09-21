@@ -11,8 +11,8 @@ The goal is to have a platform where:
 
 In an ideal world programs written for this simulator should be usable or compilable to real-world robot interfaces.
 
-
 <img src="./LiquidHandlingRobot.svg" width="500px" height="500px" style="text-align:center; display:block;" />
+
 ## Existing Work
 
  * a very simplified vision could be this simplified [coffee machine simulator](https://github.com/Play2Learn-Org/coffeemachine)
