@@ -3,7 +3,7 @@
 <!-- Created with Vectornator (http://vectornator.io/) -->
 <svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 3400 1800" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<path d="M762.826 1151.52L762.826 1215.42L765.758 1215.42L765.758 1363.81C765.758 1378.02 767.202 1400.81 768.981 1414.72L778.263 1487.29C780.042 1501.19 782.929 1501.19 784.709 1487.29L793.998 1414.72C795.777 1400.81 797.221 1378.02 797.221 1363.81L797.221 1215.42L800.957 1215.42L800.957 1151.52L797.221 1151.52L765.758 1151.52L762.826 1151.52Z" id="Fill"/>
+<path d="M762.826 1151.52L762.826 1215.42L765.758 1215.42L765.758 1363.81C765.758 1378.02 767.202 1400.81 768.981 1414.72L778.263 1487.29C780.042 1501.19 782.929 1501.19 784.709 1487.29L793.998 1414.72C795.777 1400.81 797.221 1378.02 797.221 1363.81L797.221 1215.42L800.957 1215.42L800.957 1151.52L797.221 1151.52L765.758 1151.52L762.826 1151.52Z" id="tipwithfluid"/>
 <path d="M1438.14 1356.45L1438.14 1356.84C1438.14 1366.91 1480.67 1461.21 1480.67 1461.21C1485.08 1470.15 1492.24 1470.15 1496.66 1461.21C1496.66 1461.21 1539.19 1366.91 1539.19 1356.84L1539.19 1356.45L1539.19 1298.98C1539.19 1294.62 1535.83 1291.08 1531.67 1291.08L1445.65 1291.08C1441.5 1291.08 1438.14 1294.62 1438.14 1298.98L1438.14 1356.45Z" id="Fill_2"/>
 <path d="M1720.11 1356.45L1720.11 1356.84C1720.11 1366.91 1762.64 1461.21 1762.64 1461.21C1767.06 1470.15 1774.22 1470.15 1778.63 1461.21C1778.63 1461.21 1821.17 1366.91 1821.17 1356.84L1821.17 1356.45L1821.17 1298.98C1821.17 1294.62 1817.8 1291.08 1813.65 1291.08L1727.63 1291.08C1723.48 1291.08 1720.11 1294.62 1720.11 1298.98L1720.11 1356.45Z" id="Fill_3"/>
 </defs>
@@ -43,9 +43,9 @@
 <path d="M712.673 1151.52L712.673 1215.42L715.605 1215.42L715.605 1363.81C715.605 1378.02 717.049 1400.81 718.828 1414.72L728.11 1487.29C729.889 1501.19 732.777 1501.19 734.556 1487.29L743.845 1414.72C745.625 1400.81 747.068 1378.02 747.068 1363.81L747.068 1215.42L750.804 1215.42L750.804 1151.52L747.068 1151.52L715.605 1151.52L712.673 1151.52Z" fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" id="tip17" />
 </g>
 <g opacity="1" id="tipwithfluid">
-<use fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" xlink:href="#Fill"/>
+<use fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" xlink:href="#tipwithfluid"/>
 <clipPath id="ClipPath">
-<use xlink:href="#Fill"/>
+<use xlink:href="#tipwithfluid"/>
 </clipPath>
 <g clip-path="url(#ClipPath)">
 <path d="M749.79 1404.15L826.494 1404.15L826.494 1612.39L749.79 1612.39L749.79 1404.15Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="fluidintip" />
@@ -99,13 +99,25 @@
 
 
 <animateTransform
+  id="gototip"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="0.5s"
+  dur="1s"
+  from="0 0"
+  to="62 0"
+  fill="freeze"
+/>
+<animateTransform
   id="pickup-tip-drop"
   xlink:href="#pipetteholder"
   attributeName="transform"
   type="translate"
-  begin="0s"
+  begin="gototip.end+0.5s"
   dur="1s"
-  to="0 80"
+  from="62 0"
+  to="62 260"
   fill="freeze"
 />
 <animateTransform
@@ -115,8 +127,8 @@
   type="translate"
   begin="pickup-tip-drop.end+0.5s"
   dur="1s"
-  from="0 80"
-  to="0 0"
+  from="62 260"
+  to="62 0"
   fill="freeze"
 />
 <animateTransform
@@ -126,7 +138,7 @@
   type="translate"
   begin="pickup-tip-lift.end+0.5s"
   dur="2s"
-  from="0 0"
+  from="62 0"
   to="770 0"
   fill="freeze"
 />
@@ -202,9 +214,9 @@
   attributeName="transform"
   type="translate"
   begin="gotodropoff.end+0.5s"
-  dur="1s"
+  dur="0.5s"
   from="1772 0"
-  to="1772 60"
+  to="1772 120"
   fill="freeze"
 />
 <animateTransform
@@ -214,8 +226,8 @@
   type="translate"
   begin="dropoff-drop.end+1.0s"
   dur="1s"
-  from="1772 60"
-  to="1872 60"
+  from="1772 120"
+  to="1872 120"
   fill="freeze"
 />
 <animateTransform
@@ -225,7 +237,7 @@
   type="translate"
   begin="dropoff-move.end+0.5s"
   dur="0.5s"
-  from="1872 60"
+  from="1872 120"
   to="1872 0"
   fill="freeze"
 />
@@ -238,6 +250,117 @@
   dur="4s"
   from="1872 0"
   to="0 0"
+  fill="freeze"
+/>
+<!-- tip animations -->
+<animateTransform
+  id="pickup-tip"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="pickup-tip-drop.end+0.5s"
+  dur="1s"
+  from="0 0"
+  to="0 -265"
+  fill="freeze"
+/>
+<animateTransform
+  id="movetiptotakein"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="pickup-tip-lift.end+0.5s"
+  dur="2s"
+  from="0 -265"
+  to="704 -265"
+  fill="freeze"
+/>
+<animateTransform
+  id="tipdroptotakein"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="gototakein.end+0.5s"
+  dur="1s"
+  from="704 -265"
+  to="704 -65"
+  fill="freeze"
+/>
+<animateTransform
+  id="tiplifttotakein"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="takein-drop.end+1.5s"
+  dur="1s"
+  from="704 -65"
+  to="704 -265"
+  fill="freeze"
+/>
+<animateTransform
+  id="tipmovetoinsert"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="takein-lift.end+0.5s"
+  dur="1s"
+  from="704 -265"
+  to="994 -265"
+  fill="freeze"
+/>
+<animateTransform
+  id="tipinsertdrop"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="gotoinsert.end+0.5s"
+  dur="1s"
+  from="994 -265"
+  to="994 -65"
+  fill="freeze"
+/>
+<animateTransform
+  id="tipinsertlift"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="insert-drop.end+1.5s"
+  dur="1s"
+  from="994 -65"
+  to="994 -265"
+  fill="freeze"
+/>
+<animateTransform
+  id="tipmovetodropoff"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="insert-lift.end+0.5s"
+  dur="1.8s"
+  from="994 -265"
+  to="1706 -265"
+  fill="freeze"
+/>
+<animateTransform
+  id="tipdropoffdrop"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="translate"
+  begin="gotodropoff.end+0.5s"
+  dur="0.5s"
+  from="1706 -265"
+  to="1706 -145"
+  fill="freeze"
+/>
+<animateTransform
+  id="tipremoval"
+  xlink:href="#tipwithfluid"
+  attributeName="transform"
+  type="rotate"
+  begin="dropoff-drop.end+1.0s"
+  dur="1s"
+  from="0"
+  to="90"
   fill="freeze"
 />
 </svg>
