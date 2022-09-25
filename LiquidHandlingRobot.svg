@@ -12,9 +12,7 @@
 <path d="M218.392 100.426L3162.78 100.426L3162.78 1616.02L218.392 1616.02L218.392 100.426Z" fill="#6f3a1a" fill-rule="nonzero" opacity="1" stroke="none" id="background" />
 <path d="M11.452 1558.47L3388.55 1558.47L3388.55 1783.8L11.452 1783.8L11.452 1558.47Z" fill="#9d521b" fill-rule="nonzero" opacity="1" stroke="none" id="bottom"/>
 <g id="motorizedarm" opacity="1">
-<path d="M695.843 575.418L736.953 575.418C752.228 575.418 764.61 591.623 764.61 611.614L764.61 1055.19C764.61 1075.19 752.228 1091.39 736.953 1091.39L695.843 1091.39C680.569 1091.39 668.187 1075.19 668.187 1055.19L668.187 611.614C668.187 591.623 680.569 575.418 695.843 575.418Z" fill="#002748" fill-rule="nonzero" opacity="1" stroke="none" id="pipetteholder">
-  <animate attributeName="left" values="0;200;0" dur="5s" repeatCount="indefinite" />
-</path>
+<path d="M695.843 575.418L736.953 575.418C752.228 575.418 764.61 591.623 764.61 611.614L764.61 1055.19C764.61 1075.19 752.228 1091.39 736.953 1091.39L695.843 1091.39C680.569 1091.39 668.187 1075.19 668.187 1055.19L668.187 611.614C668.187 591.623 680.569 575.418 695.843 575.418Z" fill="#002748" fill-rule="nonzero" opacity="1" stroke="none" id="pipetteholder" />
 <path d="M670.551 128.866C619.046 128.866 577.3 165.176 577.3 209.961L577.3 240.045L577.3 567.421C577.3 612.206 619.045 648.503 670.551 648.503L820.026 648.503C839.989 648.503 859.96 633.727 875.191 604.161L1038.53 251.643C1052.79 220.87 1040.37 178.404 1010.8 156.791L1009.98 156.196C989.329 141.102 950.453 128.866 923.152 128.866L670.551 128.866Z" fill="#002748" fill-rule="nonzero" opacity="1" stroke="none" id="motorarm"/>
 </g>
 <path d="M11.452 16.2014L3388.55 16.2014L3388.55 241.531L11.452 241.531L11.452 16.2014Z" fill="#9d521b" fill-rule="nonzero" opacity="1" stroke="none" id="top"/>
@@ -98,4 +96,148 @@
 </g>
 </g>
 </g>
+
+
+<animateTransform
+  id="pickup-tip-drop"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="0s"
+  dur="1s"
+  to="0 80"
+  fill="freeze"
+/>
+<animateTransform
+  id="pickup-tip-lift"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="pickup-tip-drop.end+0.5s"
+  dur="1s"
+  from="0 80"
+  to="0 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="gototakein"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="pickup-tip-lift.end+0.5s"
+  dur="2s"
+  from="0 0"
+  to="770 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="takein-drop"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="gototakein.end+0.5s"
+  dur="1s"
+  from="770 0"
+  to="770 200"
+  fill="freeze"
+/>
+<animateTransform
+  id="takein-lift"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="takein-drop.end+1.5s"
+  dur="1s"
+  from="770 200"
+  to="770 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="gotoinsert"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="takein-lift.end+0.5s"
+  dur="1s"
+  from="770 0"
+  to="1060 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="insert-drop"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="gotoinsert.end+0.5s"
+  dur="1s"
+  from="1060 0"
+  to="1060 200"
+  fill="freeze"
+/>
+<animateTransform
+  id="insert-lift"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="insert-drop.end+1.5s"
+  dur="1s"
+  from="1060 200"
+  to="1060 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="gotodropoff"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="insert-lift.end+0.5s"
+  dur="1.8s"
+  from="1060 0"
+  to="1772 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="dropoff-drop"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="gotodropoff.end+0.5s"
+  dur="1s"
+  from="1772 0"
+  to="1772 60"
+  fill="freeze"
+/>
+<animateTransform
+  id="dropoff-move"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="dropoff-drop.end+1.0s"
+  dur="1s"
+  from="1772 60"
+  to="1872 60"
+  fill="freeze"
+/>
+<animateTransform
+  id="dropoff-lift"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="dropoff-move.end+0.5s"
+  dur="0.5s"
+  from="1872 60"
+  to="1872 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="returntostart"
+  xlink:href="#pipetteholder"
+  attributeName="transform"
+  type="translate"
+  begin="dropoff-lift.end+0.5s"
+  dur="4s"
+  from="1872 0"
+  to="0 0"
+  fill="freeze"
+/>
 </svg>
