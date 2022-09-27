@@ -48,7 +48,7 @@
     <use xlink:href="#Fill_2"/>
     </clipPath>
     <g clip-path="url(#ClipPath_2)">
-      <path d="M1414.54 1392.39L1554.05 1392.39L1554.05 1585.84L1414.54 1585.84L1414.54 1392.39Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="tubewithfluid-out-path"/>
+      <path d="M1414.54 1392.39L1554.05 1392.39L1554.05 1585.84L1414.54 1585.84L1414.54 1392.39Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="fluidout"/>
     </g>
   </g>
   <g opacity="1" id="tubewithfluid-in" >
@@ -57,7 +57,7 @@
     <use xlink:href="#Fill_3"/>
     </clipPath>
     <g clip-path="url(#ClipPath_3)">
-      <path d="M1700 1434.42L1833.61 1434.42L1833.61 1617.4L1700 1617.4L1700 1434.42Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="tubewithfluid-in-path" />
+      <path d="M1700 1434.42L1833.61 1434.42L1833.61 1617.4L1700 1617.4L1700 1434.42Z" transform="translate(0, 50)" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="fluidin" />
     </g>
   <g opacity="1" id="tipholder">
     <path d="M285.272 1214.39L877.29 1214.39L877.29 1558.47L285.272 1558.47L285.272 1214.39Z" fill="#b1935d" fill-rule="nonzero" opacity="1" stroke="none" id="tipholder-background"/>
@@ -88,7 +88,7 @@
       <use xlink:href="#tipwithfluid"/>
       </clipPath>
       <g clip-path="url(#ClipPath)">
-        <path d="M749.79 1404.15L826.494 1404.15L826.494 1612.39L749.79 1612.39L749.79 1404.15Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="fluidintip" />
+        <path d="M749.79 1404.15L826.494 1404.15L826.494 1612.39L749.79 1612.39L749.79 1404.15Z" fill="#c94d8d" transform="translate(0,100)" fill-rule="nonzero" opacity="1" stroke="none" id="fluidintip" />
       </g>
     </g>
     <path d="M285.265 1214.39L285.265 1558.47L877.296 1558.47L877.296 1214.39L285.265 1214.39ZM363.733 1267.33L836.733 1267.33L836.733 1512.97L363.733 1512.97L363.733 1267.33Z" fill="#bda27c" fill-rule="nonzero" opacity="1" stroke="none" id="tipholder-front" />
@@ -160,12 +160,13 @@
   to="0 200"
   fill="freeze"
 />
+
 <animateTransform
   id="takein-lift"
   xlink:href="#pipetteholder"
   attributeName="transform"
   type="translate"
-  begin="takein-drop.end+1.5s"
+  begin="fluid-takein.end+0.5s"
   dur="1s"
   from="0 200"
   to="0 0"
@@ -260,8 +261,52 @@
   fill="freeze"
 />
 <!-- end tipholder animations -->
-<!-- motor animations -->
-<!-- end motor animations -->
+<!-- fluid animations -->
+<animateTransform
+  id="fluid-takein"
+  xlink:href="#fluidintip"
+  attributeName="transform"
+  type="translate"
+  begin="takein-drop.end+0.5s"
+  dur="1s"
+  from="0 100"
+  to="0 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="reducefluidout"
+  xlink:href="#fluidout"
+  attributeName="transform"
+  type="translate"
+  begin="takein-drop.end+0.5s"
+  dur="1s"
+  from="0 0"
+  to="0 20"
+  fill="freeze"
+/>
+<animateTransform
+  id="fluid-takein"
+  xlink:href="#fluidintip"
+  attributeName="transform"
+  type="translate"
+  begin="insert-drop.end+0.5s"
+  dur="1s"
+  from="0 0"
+  to="0 100"
+  fill="freeze"
+/>
+<animateTransform
+  id="increasefluidin"
+  xlink:href="#fluidin"
+  attributeName="transform"
+  type="translate"
+  begin="insert-drop.end+0.5s"
+  dur="1s"
+  from="0 50"
+  to="0 0"
+  fill="freeze"
+/>
+<!-- end fluid animations -->
 <!-- tip animations -->
 <animateTransform
   id="pickup-tip"
@@ -296,12 +341,13 @@
   to="704 -65"
   fill="freeze"
 />
+
 <animateTransform
   id="tiplifttotakein"
   xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
-  begin="takein-drop.end+1.5s"
+  begin="fluid-takein.end+0.5s"
   dur="1s"
   from="704 -65"
   to="704 -265"
