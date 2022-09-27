@@ -11,7 +11,7 @@
 <g opacity="1">
 <path d="M218.392 100.426L3162.78 100.426L3162.78 1616.02L218.392 1616.02L218.392 100.426Z" fill="#6f3a1a" fill-rule="nonzero" opacity="1" stroke="none" id="background" />
 <path d="M11.452 1558.47L3388.55 1558.47L3388.55 1783.8L11.452 1783.8L11.452 1558.47Z" fill="#9d521b" fill-rule="nonzero" opacity="1" stroke="none" id="bottom"/>
-<g id="motorizedarm" opacity="1">
+<g id="motorisedarm" opacity="1">
 <path d="M695.843 140.849L736.953 140.849C752.228 140.849 764.61 164.693 764.61 194.105L764.61 846.744C764.61 876.157 752.228 900 736.953 900L695.843 900C680.569 900 668.187 876.157 668.187 846.744L668.187 194.105C668.187 164.693 680.569 140.849 695.843 140.849Z" fill="#002748" fill-rule="nonzero" opacity="1" stroke="none" id="pipetteholder"/>
 <path d="M670.551 128.866C619.046 128.866 577.3 165.176 577.3 209.961L577.3 240.045L577.3 567.421C577.3 612.206 619.045 648.503 670.551 648.503L820.026 648.503C839.989 648.503 859.96 633.727 875.191 604.161L1038.53 251.643C1052.79 220.87 1040.37 178.404 1010.8 156.791L1009.98 156.196C989.329 141.102 950.453 128.866 923.152 128.866L670.551 128.866Z" fill="#002748" fill-rule="nonzero" opacity="1" stroke="none" id="motorarm"/>
 </g>
@@ -107,7 +107,7 @@
 <!-- tipholder animations -->
 <animateTransform
   id="gototip"
-  xlink:href="#pipetteholder"
+  xlink:href="#motorisedarm"
   attributeName="transform"
   type="translate"
   begin="0.5s"
@@ -123,8 +123,8 @@
   type="translate"
   begin="gototip.end+0.5s"
   dur="1s"
-  from="62 0"
-  to="62 260"
+  from="0 0"
+  to="0 260"
   fill="freeze"
 />
 <animateTransform
@@ -134,13 +134,13 @@
   type="translate"
   begin="pickup-tip-drop.end+0.5s"
   dur="1s"
-  from="62 260"
-  to="62 0"
+  from="0 260"
+  to="0 0"
   fill="freeze"
 />
 <animateTransform
   id="gototakein"
-  xlink:href="#pipetteholder"
+  xlink:href="#motorisedarm"
   attributeName="transform"
   type="translate"
   begin="pickup-tip-lift.end+0.5s"
@@ -156,8 +156,8 @@
   type="translate"
   begin="gototakein.end+0.5s"
   dur="1s"
-  from="770 0"
-  to="770 200"
+  from="0 0"
+  to="0 200"
   fill="freeze"
 />
 <animateTransform
@@ -167,13 +167,13 @@
   type="translate"
   begin="takein-drop.end+1.5s"
   dur="1s"
-  from="770 200"
-  to="770 0"
+  from="0 200"
+  to="0 0"
   fill="freeze"
 />
 <animateTransform
   id="gotoinsert"
-  xlink:href="#pipetteholder"
+  xlink:href="#motorisedarm"
   attributeName="transform"
   type="translate"
   begin="takein-lift.end+0.5s"
@@ -189,8 +189,8 @@
   type="translate"
   begin="gotoinsert.end+0.5s"
   dur="1s"
-  from="1060 0"
-  to="1060 200"
+  from="0 0"
+  to="0 200"
   fill="freeze"
 />
 <animateTransform
@@ -200,13 +200,13 @@
   type="translate"
   begin="insert-drop.end+1.5s"
   dur="1s"
-  from="1060 200"
-  to="1060 0"
+  from="0 200"
+  to="0 0"
   fill="freeze"
 />
 <animateTransform
   id="gotodropoff"
-  xlink:href="#pipetteholder"
+  xlink:href="#motorisedarm"
   attributeName="transform"
   type="translate"
   begin="insert-lift.end+0.5s"
@@ -222,19 +222,19 @@
   type="translate"
   begin="gotodropoff.end+0.5s"
   dur="0.5s"
-  from="1772 0"
-  to="1772 120"
+  from="0 0"
+  to="0 120"
   fill="freeze"
 />
 <animateTransform
   id="dropoff-move"
-  xlink:href="#pipetteholder"
+  xlink:href="#motorisedarm"
   attributeName="transform"
   type="translate"
   begin="dropoff-drop.end+1.0s"
   dur="1s"
-  from="1772 120"
-  to="1872 120"
+  from="1772 0"
+  to="1872 0"
   fill="freeze"
 />
 <animateTransform
@@ -244,13 +244,13 @@
   type="translate"
   begin="dropoff-move.end+0.5s"
   dur="0.5s"
-  from="1872 120"
-  to="1872 0"
+  from="0 120"
+  to="0 0"
   fill="freeze"
 />
 <animateTransform
   id="returntostart"
-  xlink:href="#pipetteholder"
+  xlink:href="#motorisedarm"
   attributeName="transform"
   type="translate"
   begin="dropoff-lift.end+0.5s"
