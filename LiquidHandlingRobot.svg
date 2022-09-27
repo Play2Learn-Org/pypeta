@@ -42,6 +42,23 @@
       <path d="M2173.07 1356.45L2173.07 1356.84C2173.07 1366.91 2215.6 1461.21 2215.6 1461.21C2220.02 1470.15 2227.18 1470.15 2231.59 1461.21C2231.59 1461.21 2274.12 1366.91 2274.12 1356.84L2274.12 1356.45L2274.12 1298.98C2274.12 1294.62 2270.76 1291.08 2266.61 1291.08L2180.59 1291.08C2176.44 1291.08 2173.07 1294.62 2173.07 1298.98L2173.07 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube10" />
     </g>
   </g>
+  <g opacity="1" id="tubewithfluid-out">
+    <use fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" xlink:href="#Fill_2"/>
+    <clipPath id="ClipPath_2">
+    <use xlink:href="#Fill_2"/>
+    </clipPath>
+    <g clip-path="url(#ClipPath_2)">
+      <path d="M1414.54 1392.39L1554.05 1392.39L1554.05 1585.84L1414.54 1585.84L1414.54 1392.39Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="tubewithfluid-out-path"/>
+    </g>
+  </g>
+  <g opacity="1" id="tubewithfluid-in" >
+    <use fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" xlink:href="#Fill_3"/>
+    <clipPath id="ClipPath_3">
+    <use xlink:href="#Fill_3"/>
+    </clipPath>
+    <g clip-path="url(#ClipPath_3)">
+      <path d="M1700 1434.42L1833.61 1434.42L1833.61 1617.4L1700 1617.4L1700 1434.42Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="tubewithfluid-in-path" />
+    </g>
   <g opacity="1" id="tipholder">
     <path d="M285.272 1214.39L877.29 1214.39L877.29 1558.47L285.272 1558.47L285.272 1214.39Z" fill="#b1935d" fill-rule="nonzero" opacity="1" stroke="none" id="tipholder-background"/>
     <g opacity="1" id="tipholder-tips-back">
@@ -77,23 +94,6 @@
     <path d="M285.265 1214.39L285.265 1558.47L877.296 1558.47L877.296 1214.39L285.265 1214.39ZM363.733 1267.33L836.733 1267.33L836.733 1512.97L363.733 1512.97L363.733 1267.33Z" fill="#bda27c" fill-rule="nonzero" opacity="1" stroke="none" id="tipholder-front" />
   </g>
   <path d="M2434.25 1164.05L2434.25 1218.31L2399.17 1218.31L2399.17 1331.75L2434.25 1331.75L2434.25 1558.47L2525.63 1558.47L2525.63 1308.58L2601.58 1308.58L2601.58 1558.47L3053.59 1558.47L3053.59 1164.05L2601.58 1164.05L2601.58 1259.71L2525.63 1259.71L2525.63 1164.05L2434.25 1164.05Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tip-dropoff"/>
-  <g opacity="1" id="tubewithfluid-out">
-    <use fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" xlink:href="#Fill_2"/>
-    <clipPath id="ClipPath_2">
-    <use xlink:href="#Fill_2"/>
-    </clipPath>
-    <g clip-path="url(#ClipPath_2)">
-      <path d="M1414.54 1392.39L1554.05 1392.39L1554.05 1585.84L1414.54 1585.84L1414.54 1392.39Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="tubewithfluid-out-path"/>
-    </g>
-  </g>
-  <g opacity="1" id="tubewithfluid-in" >
-    <use fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" xlink:href="#Fill_3"/>
-    <clipPath id="ClipPath_3">
-    <use xlink:href="#Fill_3"/>
-    </clipPath>
-    <g clip-path="url(#ClipPath_3)">
-      <path d="M1700 1434.42L1833.61 1434.42L1833.61 1617.4L1700 1617.4L1700 1434.42Z" fill="#c94d8d" fill-rule="nonzero" opacity="1" stroke="none" id="tubewithfluid-in-path" />
-    </g>
   </g>
 </g>
 
