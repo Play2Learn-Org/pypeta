@@ -19,6 +19,29 @@
 <path d="M285.265 52.0426L285.265 1639.75L133.44 1639.75L133.44 52.0426L285.265 52.0426Z" fill="#9d521b" fill-rule="nonzero" opacity="1" stroke="none" id="leftwall"/>
 <path d="M3259.8 52.0426L3259.8 1639.75L3107.98 1639.75L3107.98 52.0426L3259.8 52.0426Z" fill="#9d521b" fill-rule="nonzero" opacity="1" stroke="none" id="rightwall"/>
 </g>
+<g opacity="1" id="tubepalette1" >
+<path d="M1517.8 1467.92L1616.78 1467.92L1616.78 1558.47L1517.8 1558.47L1517.8 1467.92Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tubepallete1-foot-right" />
+<path d="M925.047 1467.92L1024.03 1467.92L1024.03 1558.47L925.047 1558.47L925.047 1467.92Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tubepallete1-foot-left"/>
+<path d="M974.538 1312.11L1552.11 1312.11L1552.11 1488.95L974.538 1488.95L974.538 1312.11Z" fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" id="tubepalette1-plate"/>
+<g opacity="1">
+<path d="M985.181 1356.45L985.181 1356.84C985.181 1366.91 1027.71 1461.21 1027.71 1461.21C1032.13 1470.15 1039.29 1470.15 1043.7 1461.21C1043.7 1461.21 1086.23 1366.91 1086.23 1356.84L1086.23 1356.45L1086.23 1298.98C1086.23 1294.62 1082.87 1291.08 1078.72 1291.08L992.696 1291.08C988.545 1291.08 985.181 1294.62 985.181 1298.98L985.181 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube1" />
+<path d="M1098.42 1356.45L1098.42 1356.84C1098.42 1366.91 1140.95 1461.21 1140.95 1461.21C1145.37 1470.15 1152.52 1470.15 1156.94 1461.21C1156.94 1461.21 1199.47 1366.91 1199.47 1356.84L1199.47 1356.45L1199.47 1298.98C1199.47 1294.62 1196.11 1291.08 1191.96 1291.08L1105.94 1291.08C1101.78 1291.08 1098.42 1294.62 1098.42 1298.98L1098.42 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube2" />
+<path d="M1211.66 1356.45L1211.66 1356.84C1211.66 1366.91 1254.19 1461.21 1254.19 1461.21C1258.61 1470.15 1265.76 1470.15 1270.18 1461.21C1270.18 1461.21 1312.71 1366.91 1312.71 1356.84L1312.71 1356.45L1312.71 1298.98C1312.71 1294.62 1309.35 1291.08 1305.2 1291.08L1219.17 1291.08C1215.02 1291.08 1211.66 1294.62 1211.66 1298.98L1211.66 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube3" />
+<path d="M1324.9 1356.45L1324.9 1356.84C1324.9 1366.91 1367.43 1461.21 1367.43 1461.21C1371.84 1470.15 1379 1470.15 1383.42 1461.21C1383.42 1461.21 1425.95 1366.91 1425.95 1356.84L1425.95 1356.45L1425.95 1298.98C1425.95 1294.62 1422.59 1291.08 1418.44 1291.08L1332.41 1291.08C1328.26 1291.08 1324.9 1294.62 1324.9 1298.98L1324.9 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube4" />
+<path d="M1438.14 1356.45L1438.14 1356.84C1438.14 1366.91 1480.67 1461.21 1480.67 1461.21C1485.08 1470.15 1492.24 1470.15 1496.66 1461.21C1496.66 1461.21 1539.19 1366.91 1539.19 1356.84L1539.19 1356.45L1539.19 1298.98C1539.19 1294.62 1535.83 1291.08 1531.67 1291.08L1445.65 1291.08C1441.5 1291.08 1438.14 1294.62 1438.14 1298.98L1438.14 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube5" />
+</g>
+</g>
+<g opacity="1" id="tubepalette2">
+<path d="M2252.73 1467.92L2351.71 1467.92L2351.71 1558.47L2252.73 1558.47L2252.73 1467.92Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tubepalette2-foot-right" />
+<path d="M1659.98 1467.92L1758.96 1467.92L1758.96 1558.47L1659.98 1558.47L1659.98 1467.92Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tubepalette2-foot-left" />
+<path d="M1709.47 1312.11L2287.04 1312.11L2287.04 1488.95L1709.47 1488.95L1709.47 1312.11Z" fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" id="tubepalette2-plate" />
+<g opacity="1">
+<path d="M1833.35 1356.45L1833.35 1356.84C1833.35 1366.91 1875.88 1461.21 1875.88 1461.21C1880.3 1470.15 1887.46 1470.15 1891.87 1461.21C1891.87 1461.21 1934.41 1366.91 1934.41 1356.84L1934.41 1356.45L1934.41 1298.98C1934.41 1294.62 1931.04 1291.08 1926.89 1291.08L1840.87 1291.08C1836.72 1291.08 1833.35 1294.62 1833.35 1298.98L1833.35 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube7" />
+<path d="M1946.59 1356.45L1946.59 1356.84C1946.59 1366.91 1989.12 1461.21 1989.12 1461.21C1993.54 1470.15 2000.7 1470.15 2005.11 1461.21C2005.11 1461.21 2047.64 1366.91 2047.64 1356.84L2047.64 1356.45L2047.64 1298.98C2047.64 1294.62 2044.28 1291.08 2040.13 1291.08L1954.11 1291.08C1949.96 1291.08 1946.59 1294.62 1946.59 1298.98L1946.59 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube8" />
+<path d="M2059.83 1356.45L2059.83 1356.84C2059.83 1366.91 2102.36 1461.21 2102.36 1461.21C2106.78 1470.15 2113.94 1470.15 2118.35 1461.21C2118.35 1461.21 2160.88 1366.91 2160.88 1356.84L2160.88 1356.45L2160.88 1298.98C2160.88 1294.62 2157.52 1291.08 2153.37 1291.08L2067.35 1291.08C2063.2 1291.08 2059.83 1294.62 2059.83 1298.98L2059.83 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube9" />
+<path d="M2173.07 1356.45L2173.07 1356.84C2173.07 1366.91 2215.6 1461.21 2215.6 1461.21C2220.02 1470.15 2227.18 1470.15 2231.59 1461.21C2231.59 1461.21 2274.12 1366.91 2274.12 1356.84L2274.12 1356.45L2274.12 1298.98C2274.12 1294.62 2270.76 1291.08 2266.61 1291.08L2180.59 1291.08C2176.44 1291.08 2173.07 1294.62 2173.07 1298.98L2173.07 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube10" />
+</g>
+</g>
 <g opacity="1" id="tipholder">
 <path d="M285.272 1214.39L877.29 1214.39L877.29 1558.47L285.272 1558.47L285.272 1214.39Z" fill="#b1935d" fill-rule="nonzero" opacity="1" stroke="none" id="tipholder-background"/>
 <g opacity="1" id="tipholder-tips-back">
@@ -42,7 +65,7 @@
 <path d="M662.52 1151.52L662.52 1215.42L665.452 1215.42L665.452 1363.81C665.452 1378.02 666.897 1400.81 668.676 1414.72L677.957 1487.29C679.736 1501.19 682.624 1501.19 684.404 1487.29L693.692 1414.72C695.472 1400.81 696.915 1378.02 696.915 1363.81L696.915 1215.42L700.651 1215.42L700.651 1151.52L696.915 1151.52L665.452 1151.52L662.52 1151.52Z" fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" id="tip16" />
 <path d="M712.673 1151.52L712.673 1215.42L715.605 1215.42L715.605 1363.81C715.605 1378.02 717.049 1400.81 718.828 1414.72L728.11 1487.29C729.889 1501.19 732.777 1501.19 734.556 1487.29L743.845 1414.72C745.625 1400.81 747.068 1378.02 747.068 1363.81L747.068 1215.42L750.804 1215.42L750.804 1151.52L747.068 1151.52L715.605 1151.52L712.673 1151.52Z" fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" id="tip17" />
 </g>
-<g opacity="1" id="tipwithfluid">
+<g opacity="1" id="tipwithfluid-group">
 <use fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" xlink:href="#tipwithfluid"/>
 <clipPath id="ClipPath">
 <use xlink:href="#tipwithfluid"/>
@@ -52,29 +75,6 @@
 </g>
 </g>
 <path d="M285.265 1214.39L285.265 1558.47L877.296 1558.47L877.296 1214.39L285.265 1214.39ZM363.733 1267.33L836.733 1267.33L836.733 1512.97L363.733 1512.97L363.733 1267.33Z" fill="#bda27c" fill-rule="nonzero" opacity="1" stroke="none" id="tipholder-front" />
-</g>
-<g opacity="1" id="tubepalette1" >
-<path d="M1517.8 1467.92L1616.78 1467.92L1616.78 1558.47L1517.8 1558.47L1517.8 1467.92Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tubepallete1-foot-right" />
-<path d="M925.047 1467.92L1024.03 1467.92L1024.03 1558.47L925.047 1558.47L925.047 1467.92Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tubepallete1-foot-left"/>
-<path d="M974.538 1312.11L1552.11 1312.11L1552.11 1488.95L974.538 1488.95L974.538 1312.11Z" fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" id="tubepalette1-plate"/>
-<g opacity="1">
-<path d="M985.181 1356.45L985.181 1356.84C985.181 1366.91 1027.71 1461.21 1027.71 1461.21C1032.13 1470.15 1039.29 1470.15 1043.7 1461.21C1043.7 1461.21 1086.23 1366.91 1086.23 1356.84L1086.23 1356.45L1086.23 1298.98C1086.23 1294.62 1082.87 1291.08 1078.72 1291.08L992.696 1291.08C988.545 1291.08 985.181 1294.62 985.181 1298.98L985.181 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube1" />
-<path d="M1098.42 1356.45L1098.42 1356.84C1098.42 1366.91 1140.95 1461.21 1140.95 1461.21C1145.37 1470.15 1152.52 1470.15 1156.94 1461.21C1156.94 1461.21 1199.47 1366.91 1199.47 1356.84L1199.47 1356.45L1199.47 1298.98C1199.47 1294.62 1196.11 1291.08 1191.96 1291.08L1105.94 1291.08C1101.78 1291.08 1098.42 1294.62 1098.42 1298.98L1098.42 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube2" />
-<path d="M1211.66 1356.45L1211.66 1356.84C1211.66 1366.91 1254.19 1461.21 1254.19 1461.21C1258.61 1470.15 1265.76 1470.15 1270.18 1461.21C1270.18 1461.21 1312.71 1366.91 1312.71 1356.84L1312.71 1356.45L1312.71 1298.98C1312.71 1294.62 1309.35 1291.08 1305.2 1291.08L1219.17 1291.08C1215.02 1291.08 1211.66 1294.62 1211.66 1298.98L1211.66 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube3" />
-<path d="M1324.9 1356.45L1324.9 1356.84C1324.9 1366.91 1367.43 1461.21 1367.43 1461.21C1371.84 1470.15 1379 1470.15 1383.42 1461.21C1383.42 1461.21 1425.95 1366.91 1425.95 1356.84L1425.95 1356.45L1425.95 1298.98C1425.95 1294.62 1422.59 1291.08 1418.44 1291.08L1332.41 1291.08C1328.26 1291.08 1324.9 1294.62 1324.9 1298.98L1324.9 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube4" />
-<path d="M1438.14 1356.45L1438.14 1356.84C1438.14 1366.91 1480.67 1461.21 1480.67 1461.21C1485.08 1470.15 1492.24 1470.15 1496.66 1461.21C1496.66 1461.21 1539.19 1366.91 1539.19 1356.84L1539.19 1356.45L1539.19 1298.98C1539.19 1294.62 1535.83 1291.08 1531.67 1291.08L1445.65 1291.08C1441.5 1291.08 1438.14 1294.62 1438.14 1298.98L1438.14 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube5" />
-</g>
-</g>
-<g opacity="1" id="tubepalette2">
-<path d="M2252.73 1467.92L2351.71 1467.92L2351.71 1558.47L2252.73 1558.47L2252.73 1467.92Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tubepalette2-foot-right" />
-<path d="M1659.98 1467.92L1758.96 1467.92L1758.96 1558.47L1659.98 1558.47L1659.98 1467.92Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tubepalette2-foot-left" />
-<path d="M1709.47 1312.11L2287.04 1312.11L2287.04 1488.95L1709.47 1488.95L1709.47 1312.11Z" fill="#7cc9bf" fill-rule="nonzero" opacity="1" stroke="none" id="tubepalette2-plate" />
-<g opacity="1">
-<path d="M1833.35 1356.45L1833.35 1356.84C1833.35 1366.91 1875.88 1461.21 1875.88 1461.21C1880.3 1470.15 1887.46 1470.15 1891.87 1461.21C1891.87 1461.21 1934.41 1366.91 1934.41 1356.84L1934.41 1356.45L1934.41 1298.98C1934.41 1294.62 1931.04 1291.08 1926.89 1291.08L1840.87 1291.08C1836.72 1291.08 1833.35 1294.62 1833.35 1298.98L1833.35 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube7" />
-<path d="M1946.59 1356.45L1946.59 1356.84C1946.59 1366.91 1989.12 1461.21 1989.12 1461.21C1993.54 1470.15 2000.7 1470.15 2005.11 1461.21C2005.11 1461.21 2047.64 1366.91 2047.64 1356.84L2047.64 1356.45L2047.64 1298.98C2047.64 1294.62 2044.28 1291.08 2040.13 1291.08L1954.11 1291.08C1949.96 1291.08 1946.59 1294.62 1946.59 1298.98L1946.59 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube8" />
-<path d="M2059.83 1356.45L2059.83 1356.84C2059.83 1366.91 2102.36 1461.21 2102.36 1461.21C2106.78 1470.15 2113.94 1470.15 2118.35 1461.21C2118.35 1461.21 2160.88 1366.91 2160.88 1356.84L2160.88 1356.45L2160.88 1298.98C2160.88 1294.62 2157.52 1291.08 2153.37 1291.08L2067.35 1291.08C2063.2 1291.08 2059.83 1294.62 2059.83 1298.98L2059.83 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube9" />
-<path d="M2173.07 1356.45L2173.07 1356.84C2173.07 1366.91 2215.6 1461.21 2215.6 1461.21C2220.02 1470.15 2227.18 1470.15 2231.59 1461.21C2231.59 1461.21 2274.12 1366.91 2274.12 1356.84L2274.12 1356.45L2274.12 1298.98C2274.12 1294.62 2270.76 1291.08 2266.61 1291.08L2180.59 1291.08C2176.44 1291.08 2173.07 1294.62 2173.07 1298.98L2173.07 1356.45Z" fill="#517968" fill-rule="nonzero" opacity="1" stroke="none" id="tube10" />
-</g>
 </g>
 <path d="M2434.25 1164.05L2434.25 1218.31L2399.17 1218.31L2399.17 1331.75L2434.25 1331.75L2434.25 1558.47L2525.63 1558.47L2525.63 1308.58L2601.58 1308.58L2601.58 1558.47L3053.59 1558.47L3053.59 1164.05L2601.58 1164.05L2601.58 1259.71L2525.63 1259.71L2525.63 1164.05L2434.25 1164.05Z" fill="#c9b09a" fill-rule="nonzero" opacity="1" stroke="none" id="tip-dropoff"/>
 <g opacity="1" id="tubewithfluid-out">
@@ -255,7 +255,7 @@
 <!-- tip animations -->
 <animateTransform
   id="pickup-tip"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="pickup-tip-drop.end+0.5s"
@@ -266,7 +266,7 @@
 />
 <animateTransform
   id="movetiptotakein"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="pickup-tip-lift.end+0.5s"
@@ -277,7 +277,7 @@
 />
 <animateTransform
   id="tipdroptotakein"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="gototakein.end+0.5s"
@@ -288,7 +288,7 @@
 />
 <animateTransform
   id="tiplifttotakein"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="takein-drop.end+1.5s"
@@ -299,7 +299,7 @@
 />
 <animateTransform
   id="tipmovetoinsert"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="takein-lift.end+0.5s"
@@ -310,7 +310,7 @@
 />
 <animateTransform
   id="tipinsertdrop"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="gotoinsert.end+0.5s"
@@ -321,7 +321,7 @@
 />
 <animateTransform
   id="tipinsertlift"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="insert-drop.end+1.5s"
@@ -332,7 +332,7 @@
 />
 <animateTransform
   id="tipmovetodropoff"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="insert-lift.end+0.5s"
@@ -343,7 +343,7 @@
 />
 <animateTransform
   id="tipdropoffdrop"
-  xlink:href="#tipwithfluid"
+  xlink:href="#tipwithfluid-group"
   attributeName="transform"
   type="translate"
   begin="gotodropoff.end+0.5s"
@@ -359,8 +359,29 @@
   type="rotate"
   begin="dropoff-drop.end+1.0s"
   dur="1s"
-  from="0"
-  to="90"
+  from="0 500 1300"
+  to="50 500 1500"
+  fill="freeze"
+/>
+<animateTransform
+  id="tipmovestotrashbox"
+  xlink:href="#tipwithfluid-group"
+  attributeName="transform"
+  type="translate"
+  begin="dropoff-drop.end+1.0s"
+  dur="1.5s"
+  from="1706 -265"
+  to="1906 -145"
+  fill="freeze"
+/>
+<animate
+  id="tipturnsinvisible"
+  xlink:href="#tipwithfluid-group"
+  attributeName="visibility"
+  begin="dropoff-drop.end+1.0s"
+  dur="1s"
+  from="visible"
+  to="hidden"
   fill="freeze"
 />
 </svg>
