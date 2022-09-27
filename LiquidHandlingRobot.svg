@@ -98,6 +98,13 @@
 </g>
 
 
+<!-- ************ -->
+<!--              -->
+<!--  animations  -->
+<!--              -->
+<!-- ************ -->
+
+<!-- tipholder animations -->
 <animateTransform
   id="gototip"
   xlink:href="#pipetteholder"
@@ -252,6 +259,9 @@
   to="0 0"
   fill="freeze"
 />
+<!-- end tipholder animations -->
+<!-- motor animations -->
+<!-- end motor animations -->
 <!-- tip animations -->
 <animateTransform
   id="pickup-tip"
