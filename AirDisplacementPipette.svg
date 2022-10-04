@@ -3,34 +3,31 @@
 <!-- Created with Vectornator (http://vectornator.io/) -->
 <svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 4000 4000" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-  <path d="M1879.79 2008.83L1879.79 2770.64L1879.79 2792.43C1879.79 2840.44 1884.76 2917.25 1890.87 2964L1900.85 3040.65L1939.79 3338.65L2089.15 3338.65L2128.09 3040.65L2138.11 2964C2144.22 2917.25 2149.15 2840.44 2149.15 2792.43L2149.15 2770.64L2149.15 2008.83L1879.79 2008.83Z" id="Fill"/>
-  <path d="M2295.14 3090.27L1763.17 3090.27L1763.17 3315.59C1763.17 3426.53 1800.89 3575.73 1847.42 3648.85L1944.92 3802.06C1991.45 3875.18 2066.89 3875.17 2113.41 3802.06L2210.9 3648.85C2257.42 3575.74 2295.14 3426.53 2295.14 3315.59L2295.14 3090.27Z" id="Fill_2"/>
+  <path id="tipBackground" d="M1879.79 2008.83L1879.79 2770.64L1879.79 2792.43C1879.79 2840.44 1884.76 2917.25 1890.87 2964L1900.85 3040.65L1939.79 3338.65L2089.15 3338.65L2128.09 3040.65L2138.11 2964C2144.22 2917.25 2149.15 2840.44 2149.15 2792.43L2149.15 2770.64L2149.15 2008.83L1879.79 2008.83Z" />
+  <path id="Cuvette" d="M2295.14 3090.27L1763.17 3090.27L1763.17 3315.59C1763.17 3426.53 1800.89 3575.73 1847.42 3648.85L1944.92 3802.06C1991.45 3875.18 2066.89 3875.17 2113.41 3802.06L2210.9 3648.85C2257.42 3575.74 2295.14 3426.53 2295.14 3315.59L2295.14 3090.27Z" />
 </defs>
-<clipPath id="ArtboardFrame">
-  <rect height="4000" width="4000" x="0" y="0"/>
-</clipPath>
-<g clip-path="url(#ArtboardFrame)" id="Layer-1" vectornator:layerName="Layer 1">
-  <g opacity="1">
-    <g opacity="1">
-      <use fill="#2718d2" fill-rule="nonzero" opacity="0.362403" stroke="none" xlink:href="#Fill"/>
-      <clipPath id="ClipPath">
-        <use xlink:href="#Fill"/>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+  <g id="tipGroup" opacity="1">
+    <g id="tipGroup" opacity="1">
+      <use fill="#2718d2" fill-rule="nonzero" opacity="0.362403" stroke="none" xlink:href="#tipBackground"/>
+      <clipPath id="tipClipPath">
+        <use xlink:href="#tipBackground"/>
       </clipPath>
-      <g clip-path="url(#ClipPath)">
-        <path d="M2098.25 2876.52C2073.21 2877.42 2046.8 2884.07 2022.88 2901.44C1946.36 2957.03 1846.54 2912.96 1844.09 2901.05L1844.09 2981.29L1844.23 2981.29L1844.23 3541.92L2201.6 3541.92L2201.6 2981.29L2201.64 2981.29L2201.64 2900.46C2201.67 2900.26 2153.33 2874.52 2098.25 2876.52Z" fill="#6a0c3d" fill-rule="nonzero" opacity="0.631783" stroke="none"/>
+      <g id="tipClipGroup" clip-path="url(#tipClipPath)">
+        <path id="tipFluid" d="M2098.25 2876.52C2073.21 2877.42 2046.8 2884.07 2022.88 2901.44C1946.36 2957.03 1846.54 2912.96 1844.09 2901.05L1844.09 2981.29L1844.23 2981.29L1844.23 3541.92L2201.6 3541.92L2201.6 2981.29L2201.64 2981.29L2201.64 2900.46C2201.67 2900.26 2153.33 2874.52 2098.25 2876.52Z" fill="#6a0c3d" fill-rule="nonzero" opacity="0.631783" stroke="none"/>
       </g>
     </g>
-    <path d="M1879.79 2008.83L1879.79 2770.64L1879.79 2792.43C1879.79 2840.44 1884.76 2917.25 1890.87 2964L1900.85 3040.65L1941.01 3347.98L1941.01 2008.83L1879.79 2008.83ZM2087.97 2008.83L2087.97 3347.65L2128.09 3040.65L2138.11 2964C2144.22 2917.25 2149.15 2840.44 2149.15 2792.43L2149.15 2770.64L2149.15 2008.83L2087.97 2008.83Z" fill="#b1abfb" fill-rule="nonzero" opacity="1" stroke="none"/>
+    <path id="tipWall" d="M1879.79 2008.83L1879.79 2770.64L1879.79 2792.43C1879.79 2840.44 1884.76 2917.25 1890.87 2964L1900.85 3040.65L1941.01 3347.98L1941.01 2008.83L1879.79 2008.83ZM2087.97 2008.83L2087.97 3347.65L2128.09 3040.65L2138.11 2964C2144.22 2917.25 2149.15 2840.44 2149.15 2792.43L2149.15 2770.64L2149.15 2008.83L2087.97 2008.83Z" fill="#b1abfb" fill-rule="nonzero" opacity="1" stroke="none"/>
   </g>
-  <path d="M1887.69-7.24139L1887.69 1986.39L1880.77 1986.39L1880.77 2124.63L1887.69 2124.63L1887.69 2130.78L1941.01 2130.78L1941.01-7.24139L1887.69-7.24139ZM2087.97-7.24139L2087.97 2130.78L2140.8 2130.78L2140.8 2124.63L2148.17 2124.63L2148.17 1986.39L2140.8 1986.39L2140.8-7.24139L2087.97-7.24139Z" fill="#e09731" fill-rule="nonzero" opacity="1" stroke="none"/>
-  <path d="M1940.77-320.475L2087.95-320.475L2087.95 1773.21L1940.77 1773.21L1940.77-320.475Z" fill="#8c4101" fill-rule="nonzero" opacity="0.982558" stroke="none"/>
-  <path d="M1887.7-7.24139L1887.7 1986.39L1880.77 1986.39L1880.77 2124.63L1887.7 2124.63L1887.7 2130.78L2140.8 2130.78L2140.8 2124.63L2148.18 2124.63L2148.18 1986.39L2140.8 1986.39L2140.8-7.24139L1887.7-7.24139Z" fill="#d28518" fill-rule="nonzero" opacity="0.70589" stroke="none"/>
-  <g opacity="1">
-    <use fill="#18bcd2" fill-rule="nonzero" opacity="0.344961" stroke="none" xlink:href="#Fill_2"/>
-    <clipPath id="ClipPath_2">
-      <use xlink:href="#Fill_2"/>
+  <path id="shaftWall" d="M1887.69-7.24139L1887.69 1986.39L1880.77 1986.39L1880.77 2124.63L1887.69 2124.63L1887.69 2130.78L1941.01 2130.78L1941.01-7.24139L1887.69-7.24139ZM2087.97-7.24139L2087.97 2130.78L2140.8 2130.78L2140.8 2124.63L2148.17 2124.63L2148.17 1986.39L2140.8 1986.39L2140.8-7.24139L2087.97-7.24139Z" fill="#e09731" fill-rule="nonzero" opacity="1" stroke="none"/>
+  <path id="piston" d="M1940.77-320.475L2087.95-320.475L2087.95 1773.21L1940.77 1773.21L1940.77-320.475Z" fill="#8c4101" fill-rule="nonzero" opacity="0.982558" stroke="none"/>
+  <path id="shaftBackground" d="M1887.7-7.24139L1887.7 1986.39L1880.77 1986.39L1880.77 2124.63L1887.7 2124.63L1887.7 2130.78L2140.8 2130.78L2140.8 2124.63L2148.18 2124.63L2148.18 1986.39L2140.8 1986.39L2140.8-7.24139L1887.7-7.24139Z" fill="#d28518" fill-rule="nonzero" opacity="0.70589" stroke="none"/>
+  <g id="cuvetteGroup" opacity="1">
+    <use fill="#18bcd2" fill-rule="nonzero" opacity="0.344961" stroke="none" xlink:href="#Cuvette"/>
+    <clipPath id="cuvetteClipPath">
+      <use xlink:href="#Cuvette"/>
     </clipPath>
-    <g clip-path="url(#ClipPath_2)">
+    <g id="cuvetteClipGroup" clip-path="url(#cuvetteClipPath)">
       <path d="M2191.95 3232.31C2143.34 3233.22 2092.04 3239.87 2045.6 3257.24C1897.01 3312.82 1703.16 3268.76 1698.4 3256.84L1698.4 3337.09L1698.69 3337.09L1698.69 3897.72L2392.64 3897.72L2392.64 3337.09L2392.72 3337.09L2392.72 3256.25C2392.78 3256.06 2298.9 3230.32 2191.95 3232.31Z" fill="#6a0c3d" fill-rule="nonzero" opacity="0.773256" stroke="none"/>
     </g>
   </g>
