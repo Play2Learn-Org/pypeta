@@ -20,6 +20,7 @@ In an ideal world programs written for this simulator should be usable or compil
    * We found this [library on Github](https://github.com/tolland/python-tecan-genesis) by Tom Hodder.
    * Also this [old Perl project](https://metacpan.org/dist/Robotics) by Jonathan Cline.
  * The [Sculpting Evolution Group at MIT](https://www.media.mit.edu/groups/sculpting-evolution) has created a similar [Python Project](https://github.com/dgretton/pyhamilton) for [Hamilton](https://www.media.mit.edu/groups/sculpting-evolution) robots. ([Paper](https://www.embopress.org/doi/pdf/10.15252/msb.20209942))
+ * There is a pretty new (in 2022) project from the MIT as well, called [pylabrobot](https://github.com/PyLabRobot/pylabrobot). That one pretty much encompasses the non-UX part of my vision. Highly recommended to check them out.
  * The [EvoBot](https://www.thingiverse.com/thing:2776125) project designed an open-source hardware robot with APIs. ([Paper](https://www.mdpi.com/2076-3417/10/3/814/htm))
  * The [FINDUS](https://slas-technology.org/article/S2472-6303(22)01025-1/fulltext#pageBody) is a similar 3d printed open source robot project, which might be less well developed.
  * The [OpenLH](https://www.instructables.com/OpenLH/) project focuses on a single pipette. A first review creates the feeling of having an actual community around it. They are using the open source arm [UArm](https://github.com/uArm-developer).
