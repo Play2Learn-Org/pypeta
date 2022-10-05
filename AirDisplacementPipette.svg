@@ -14,7 +14,7 @@
         <use xlink:href="#tipBackground"/>
       </clipPath>
       <g id="tipClipGroup" clip-path="url(#tipClipPath)">
-        <path id="tipFluid" d="M2098.25 2876.52C2073.21 2877.42 2046.8 2884.07 2022.88 2901.44C1946.36 2957.03 1846.54 2912.96 1844.09 2901.05L1844.09 2981.29L1844.23 2981.29L1844.23 3541.92L2201.6 3541.92L2201.6 2981.29L2201.64 2981.29L2201.64 2900.46C2201.67 2900.26 2153.33 2874.52 2098.25 2876.52Z" fill="#6a0c3d" fill-rule="nonzero" opacity="0.631783" stroke="none"/>
+        <path id="tipFluid" transform="translate(0, 700)" d="M2098.25 2876.52C2073.21 2877.42 2046.8 2884.07 2022.88 2901.44C1946.36 2957.03 1846.54 2912.96 1844.09 2901.05L1844.09 2981.29L1844.23 2981.29L1844.23 3541.92L2201.6 3541.92L2201.6 2981.29L2201.64 2981.29L2201.64 2900.46C2201.67 2900.26 2153.33 2874.52 2098.25 2876.52Z" fill="#6a0c3d" fill-rule="nonzero" opacity="0.631783" stroke="none"/>
       </g>
     </g>
     <path id="tipWall" d="M1879.79 2008.83L1879.79 2770.64L1879.79 2792.43C1879.79 2840.44 1884.76 2917.25 1890.87 2964L1900.85 3040.65L1941.01 3347.98L1941.01 2008.83L1879.79 2008.83ZM2087.97 2008.83L2087.97 3347.65L2128.09 3040.65L2138.11 2964C2144.22 2917.25 2149.15 2840.44 2149.15 2792.43L2149.15 2770.64L2149.15 2008.83L2087.97 2008.83Z" fill="#b1abfb" fill-rule="nonzero" opacity="1" stroke="none"/>
@@ -28,8 +28,56 @@
       <use xlink:href="#Cuvette"/>
     </clipPath>
     <g id="cuvetteClipGroup" clip-path="url(#cuvetteClipPath)">
-      <path d="M2191.95 3232.31C2143.34 3233.22 2092.04 3239.87 2045.6 3257.24C1897.01 3312.82 1703.16 3268.76 1698.4 3256.84L1698.4 3337.09L1698.69 3337.09L1698.69 3897.72L2392.64 3897.72L2392.64 3337.09L2392.72 3337.09L2392.72 3256.25C2392.78 3256.06 2298.9 3230.32 2191.95 3232.31Z" fill="#6a0c3d" fill-rule="nonzero" opacity="0.773256" stroke="none"/>
+      <path id="cuvetteFluid" d="M2191.95 3232.31C2143.34 3233.22 2092.04 3239.87 2045.6 3257.24C1897.01 3312.82 1703.16 3268.76 1698.4 3256.84L1698.4 3337.09L1698.69 3337.09L1698.69 3897.72L2392.64 3897.72L2392.64 3337.09L2392.72 3337.09L2392.72 3256.25C2392.78 3256.06 2298.9 3230.32 2191.95 3232.31Z" fill="#6a0c3d" fill-rule="nonzero" opacity="0.773256" stroke="none"/>
     </g>
   </g>
 </g>
+
+<!-- ************ -->
+<!--              -->
+<!--  animations  -->
+<!--              -->
+<!-- ************ -->
+
+<!-- aspirate -->
+
+<animateTransform
+  id="aspiratePiston"
+  xlink:href="#piston"
+  attributeName="transform"
+  type="translate"
+  begin="shaftBackground.click"
+  dur="1s"
+  restart="whenNotActive"
+  from="0 0"
+  to="0 -300"
+  fill="freeze"
+/>
+<animateTransform
+  id="aspirateTipFluid"
+  xlink:href="#tipFluid"
+  attributeName="transform"
+  type="translate"
+  begin="shaftBackground.click"
+  dur="1s"
+  restart="whenNotActive"
+  from="0 300"
+  to="0 0"
+  fill="freeze"
+/>
+<animateTransform
+  id="aspirateTipFluid"
+  xlink:href="#cuvetteFluid"
+  attributeName="transform"
+  type="translate"
+  begin="shaftBackground.click"
+  dur="1s"
+  restart="whenNotActive"
+  from="0 0"
+  to="0 100"
+  fill="freeze"
+/>
+
+<!-- dispense -->
+
 </svg>
